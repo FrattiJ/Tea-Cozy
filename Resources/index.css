@@ -1,0 +1,48 @@
+* {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.header {
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    z-index: 1;
+    width: 100%;
+}
+
+.nav-list {
+    display: flex;
+    text-decoration: underline;
+    }
+    
+.mission {
+    background-image: url(../Resources/img-mission-background.webp);
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.location {
+    background-image: url(./img-locations-background.webp);
+    height: 500px;
+}
+
+.l1 {
+    display: inline-flex;
+}
+
+.contact {
+    height: 200px;
+}
+
+.copy {
+    margin-top: 20px;
+    text-align: left;
+}
