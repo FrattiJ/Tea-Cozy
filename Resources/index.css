@@ -18,6 +18,7 @@
 .nav-list {
     display: flex;
     text-decoration: underline;
+    float: right;
     }
     
 .mission {
