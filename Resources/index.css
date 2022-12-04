@@ -97,7 +97,7 @@ main {
 .logo {
     height: 50px;
     float: left;
-    padding-left: 10px;
+    padding: 10px;
 }
 
 .nav {
@@ -119,4 +119,21 @@ main {
     height: 100%;
     text-decoration: underline;
     color: white;
+}
+
+.mission-container {
+    background-image: url(/Resources/img-mission-background.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    margin: 40px auto 40px auto;
+    display: flex;
+}
+
+.text-over {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+    opacity: .9;
 }
