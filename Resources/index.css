@@ -137,3 +137,22 @@ main {
     width: 100%;
     opacity: .9;
 }
+
+.feature-container {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature img {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
+.feature h4 {
+    margin: 0;
+}
